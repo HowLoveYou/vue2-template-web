@@ -13,6 +13,7 @@ export default {
 
 <style lang="less" scoped>
 .wudi {
-  border-color: red;
+  height: 100px;
+  border: 1px solid red;
 }
 </style>
