@@ -1,18 +1,24 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div id="home">
+    <div @click="clickfun">clickfun</div>
+    <BaseTest></BaseTest>
   </div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "HomeVue",
   components: {},
   data() {
     return {};
   },
-  computed: {},
-  methods: {},
+  methods: {
+    clickfun() {
+      this.$router.push({
+        path: "/hello",
+      });
+    },
+  },
 };
 </script>
 
