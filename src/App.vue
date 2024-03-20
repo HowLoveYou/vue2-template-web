@@ -16,9 +16,4 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
-.wudi {
-  height: 100px;
-  border: 1px solid red;
-}
-</style>
+<style lang="less" scoped></style>
