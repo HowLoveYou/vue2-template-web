@@ -4,6 +4,7 @@
     <BaseTest></BaseTest>
     <el-button type="primary">主要按钮</el-button>
     <i class="el-icon-delete"></i>
+    <div class="font-bold">1111</div>
   </div>
 </template>
 
