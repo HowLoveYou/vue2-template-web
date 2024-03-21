@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^1.6.8",
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
     "listr2": "4.0.5",
     "lodash": "^4.17.21",
     "nprogress": "^0.2.0",

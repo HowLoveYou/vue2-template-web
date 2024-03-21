@@ -11,7 +11,7 @@ const whiteList = ["no-network", "no-permission", "404"];
 router.beforeEach(async (to, from, next) => {
   NProgress.start();
 
-  const { title = "智能绩效" } = to.meta;
+  const { title = "模板" } = to.meta;
   document.title = title;
 
   //白名单跳转
