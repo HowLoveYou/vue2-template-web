@@ -5,27 +5,22 @@ module.exports = {
   },
   extends: [
     "plugin:vue/essential",
-    "plugin:vue/recommended",
     "eslint:recommended",
+    "plugin:prettier/recommended",
   ],
   parserOptions: {
-    'parser': '@babel/eslint-parser',
-    "requireConfigFile":false
+    parser: "@babel/eslint-parser",
   },
   rules: {
+    "prettier/prettier": [
+      "error",
+      {
+        printWidth: 100,
+        htmlWhitespaceSensitivity: "ignore",
+      },
+    ],
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-    'vue/singleline-html-element-content-newline': 'off',
-    'vue/multiline-html-element-content-newline': 'off',
-    "vue/html-self-closing": ["error",{
-      "html": {
-        "void": "never",
-        "normal": "any",
-        "component": "any"
-      },
-      "svg": "always",
-      "math": "always"
-    }],
     "vue/order-in-components": [
       "error",
       {
