@@ -27,7 +27,9 @@ export default {
 
 <style lang="less" scoped>
 .wudi {
+  width: 200px;
   height: 100px;
+  background: red;
   border: 1px solid red;
 }
 </style>
