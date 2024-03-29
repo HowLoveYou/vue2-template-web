@@ -12,13 +12,6 @@ module.exports = {
     parser: "@babel/eslint-parser",
   },
   rules: {
-    "prettier/prettier": [
-      "error",
-      {
-        printWidth: 100,
-        htmlWhitespaceSensitivity: "ignore",
-      },
-    ],
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
     "vue/order-in-components": [
